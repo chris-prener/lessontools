@@ -19,3 +19,21 @@ lt_use_index <- function(type) {
   }
 
 }
+
+
+package_data <- function(base_path = usethis::proj_get()) {
+  desc <- desc::description$new(base_path)
+
+  out <- as.list(desc$get(desc$fields()))
+  if (uses_github(base_path)) {
+    out$github <- gh::gh_tree_remote(base_path)
+  }
+  out
+}
+
+uses_github <- function(base_path = usethis::proj_get()) {
+  tryCatch({
+    gh::gh_tree_remote(base_path)
+    TRUE
+  }, error = function(e) FALSE)
+}
