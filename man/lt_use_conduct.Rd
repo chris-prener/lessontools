@@ -4,7 +4,7 @@
 \alias{lt_use_conduct}
 \title{Add a code of conduct}
 \usage{
-lt_use_conduct()
+lt_use_conduct(type)
 }
 \description{
 Adds a `CODE_OF_CONDUCT.md` file to the project's top-level directory.

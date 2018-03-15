@@ -55,11 +55,8 @@ further defined and clarified by project maintainers.
 ## Enforcement
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported by contacting the SLU DSS organizers: 
-[Christina Gacia, Ph.D.](mailto:christina.garcia@slu.edu), 
-[Kelly Lovejoy, Ph.D.](mailto:kelly.lovejoy@slu.edu), and 
-[Christopher Prener, Ph.D.](mailto:chris.prener@slu.edu}). All
-complaints will be reviewed and investigated and will result in a response that
+reported by contacting the [Christopher Prener, Ph.D.](mailto:chris.prener@slu.edu}). 
+All complaints will be reviewed and investigated and will result in a response that
 is deemed necessary and appropriate to the circumstances. Complaints involving 
 members of the Saint Louis University community may be forwarded to the Office of 
 Institutional Equity and Diversity. The project team is obligated to maintain 
