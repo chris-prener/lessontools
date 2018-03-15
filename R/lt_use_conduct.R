@@ -9,14 +9,14 @@ lt_use_conduct <- function(type) {
 
   if (type == "dss"){
     usethis::use_template(
-      "x.md",
+      "CONDUCT_DSS.md",
       "CODE_OF_CONDUCT.md",
       ignore = FALSE,
       package = "lessontools"
     )
   } else if (type == "chris"){
     usethis::use_template(
-      "y.md",
+      "CONDUCT_CHRIS.md",
       "CODE_OF_CONDUCT.md",
       ignore = FALSE,
       package = "lessontools"
