@@ -2,5 +2,6 @@
 
 export(lt_use_conduct)
 export(lt_use_directory)
+export(lt_use_index)
 importFrom(usethis,use_directory)
 importFrom(usethis,use_template)
