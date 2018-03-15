@@ -5,7 +5,7 @@
 #' @importFrom usethis use_template
 #'
 #' @export
-lt_use_conduct <- function(type) {
+lt_use_index <- function(type) {
 
   if (type == "lecture"){
     usethis::use_template(
