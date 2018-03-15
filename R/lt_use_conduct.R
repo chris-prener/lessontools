@@ -11,14 +11,14 @@ lt_use_conduct <- function(type) {
     usethis::use_template(
       "x.md",
       "CODE_OF_CONDUCT.md",
-      ignore = TRUE,
+      ignore = FALSE,
       package = "lessontools"
     )
   } else if (type == "chris"){
     usethis::use_template(
       "y.md",
       "CODE_OF_CONDUCT.md",
-      ignore = TRUE,
+      ignore = FALSE,
       package = "lessontools"
     )
   }
